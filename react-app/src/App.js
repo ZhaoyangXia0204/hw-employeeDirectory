@@ -22,11 +22,18 @@ class App extends Component {
     this.setState({employees: arrayCopy});
   }
 
+  filterby = id =>{
+    const employees = this.state.employees.filter(employee => employee.id !== id);
+    this.setState({ employees })
+
+  }
 
   render() {
+  
     return (
       <Wrapper>
         <Title>The Employee List</Title>
+
         <table className="table">
           <thead>
             <tr>
@@ -35,6 +42,7 @@ class App extends Component {
               <th scope="col">Department</th>
               <th scope="col">Role</th>
               <th scope="col">Email</th>
+              <th scope="col">Delete</th>
             </tr>
           </thead>
           <tbody>
@@ -46,6 +54,7 @@ class App extends Component {
                 department={employee.department}
                 role={employee.role}
                 email={employee.email}
+                remove={this.filterby}
               />
             ))}
           </tbody>

@@ -18,6 +18,9 @@ function EmployeeTable(props) {
             <td>
                 {props.email}
             </td>
+            <td onClick={() => props.remove(props.id)} className="remove">
+                x
+            </td>
         </tr>
 
     );
