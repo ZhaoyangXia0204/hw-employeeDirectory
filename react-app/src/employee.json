@@ -1,0 +1,47 @@
+[
+    
+      {
+        "id": 5,
+        "name": "D Wade",
+        "department": "NBA",
+        "role": "Player",
+        "email": "DWade@gmail.com"
+      },
+      {
+        "id": 4,
+        "name": "Lebron James",
+        "department": "NBA",
+        "role": "Player",
+        "email": "LBJ@gmail.com"
+      },
+      {
+        "id": 6,
+        "name": "Chris Bosh",
+        "department": "NBA",
+        "role": "Player",
+        "email": "CB@gmail.com"
+      },
+      {
+        "id": 1,
+        "name": "Erik Spoelstra",
+        "department": "Coach",
+        "role": "Head Coach",
+        "email": "ES@gmail.com"
+      },
+      {
+        "id": 2,
+        "name": "Patt",
+        "department": "Coach",
+        "role": "Coach Assistant",
+        "email": "PL@gmail.com"
+      },
+      {
+        "id": 3,
+        "name": "Zhaoyang Xia",
+        "department": "Manager",
+        "role": "Boss",
+        "email": "ZX@gmail.com"
+      }
+    
+  ]
+  
